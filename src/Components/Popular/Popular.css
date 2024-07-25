@@ -1,0 +1,40 @@
+.popular {
+  background-color: #212121;
+  height: 100vh;
+}
+.popular h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 4px;
+  display: flex;
+  justify-content: center;
+}
+.popular_item {
+  display: flex;
+  justify-content: space-around;
+  gap: 5%;
+}
+.popular_button {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.popular_button button {
+  width: 25%;
+  height: 8%;
+  border: none;
+  font-size: 2rem;
+  background-color: aqua;
+  cursor: pointer;
+  transition: width ease-in 0.1s;
+}
+.popular_button button:hover {
+  width: 30%;
+  border: 1px solid black;
+}
+.popular_button button:active {
+  color: black;
+  background-color: white;
+}

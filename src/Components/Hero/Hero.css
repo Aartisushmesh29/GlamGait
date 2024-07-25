@@ -1,0 +1,42 @@
+.hero {
+  display: flex;
+  height: 100vh;
+  color: rgba(65, 81, 97, 255);
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  height: 100%;
+  padding: 5%;
+  position: relative;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.hero_left button {
+  width: 50%;
+  height: 8%;
+  border: none;
+  font-size: 2rem;
+  background-color: aqua;
+  cursor: pointer;
+  transition: width ease-in 0.1s;
+}
+.hero_left button:hover {
+  width: 60%;
+  border: 1px solid black;
+}
+.hero_left button:active {
+  color: white;
+  background-color: black;
+}
+.hero_right {
+  flex: 1;
+}
+.hero_right img {
+  width: 80%;
+  float: inline-end;
+}

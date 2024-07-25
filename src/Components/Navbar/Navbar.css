@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 5px 0;
+}
+
+.nav_logo_name {
+  display: flex;
+  width: 15vw;
+  margin-left: 1vw;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav_logo_name img {
+  height: 10vh;
+}
+.nav_main_headings ul {
+  padding-bottom: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_details {
+  float: right;
+  margin-right: 1vw;
+  display: flex;
+}
+.nav_main_headings ul li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 1vh 2vw 1vh 2vw;
+  margin: 1vh 1vw 1vh 1vw;
+  cursor: pointer;
+  font-size: 3vh;
+  color: #212121;
+  transition: all ease 0.25s;
+}
+.nav_list_items hr {
+  border: none;
+  background-color: red;
+  margin-left: 10%;
+  border-radius: 10px;
+  width: 80%;
+  height: 3px;
+}
+.nav_list_items {
+  color: rgba(65, 81, 97, 255);
+}
+.nav_buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav_buttons img {
+  margin-left: 10px;
+  height: 8vh;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.login {
+  border: none;
+}
+
+.navbar_login_button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 8vw;
+  height: 6vh;
+  font-size: 1.5rem;
+  transition: all ease-in 0.25s;
+}
+
+.navbar_login_button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.navbar_login_button:focus {
+  width: 4vw;
+  background-color: aqua;
+  color: #212121;
+  height: 7vh;
+  border-radius: 50%;
+  margin-right: 2vw;
+}
