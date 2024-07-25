@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+// This is Item.jsx File 
 const Item = (props) => {
   const handleClick = () => {
     window.scrollTo(0, 0);
